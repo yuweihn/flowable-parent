@@ -7,8 +7,8 @@ import java.util.stream.Collectors;
 
 import com.wei.flowable.domain.dto.SysFormDto;
 import com.wei.common.enums.FormType;
-import com.yuweix.tripod.core.DateUtil;
-import com.yuweix.tripod.sequence.base.Sequence;
+import com.yuweix.kuafu.core.DateUtil;
+import com.yuweix.kuafu.sequence.base.Sequence;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.wei.system.mapper.SysFormMapper;

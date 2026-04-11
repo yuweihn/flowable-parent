@@ -3,7 +3,7 @@ package com.wei.web.controller.system;
 
 import com.wei.common.constant.HttpStatus;
 import com.wei.system.domain.vo.ProductOptionVo;
-import com.yuweix.tripod.core.Response;
+import com.yuweix.kuafu.core.Response;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.stereotype.Controller;

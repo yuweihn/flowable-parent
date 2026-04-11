@@ -96,7 +96,7 @@ app:
   # 站点域名
   domain: http://localhost:8080
 
-tripod:
+kuafu:
   sequence:
     setting:
       inner-step: 100
@@ -104,7 +104,7 @@ tripod:
       segment-count: 1
       max-skip-count: 5
       max-wait-millis: 5000
-      rule-class-name: com.yuweix.tripod.sequence.dao.lb.RoundRobinRule
+      rule-class-name: com.yuweix.kuafu.sequence.dao.lb.RoundRobinRule
       table-name: sequence
   redis:
     pool:

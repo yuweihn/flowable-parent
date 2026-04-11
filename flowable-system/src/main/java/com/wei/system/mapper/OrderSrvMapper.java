@@ -2,9 +2,9 @@ package com.wei.system.mapper;
 
 
 import com.wei.system.domain.OrderSrv;
-import com.yuweix.tripod.dao.PersistUtil;
-import com.yuweix.tripod.dao.mybatis.BaseMapper;
-import com.yuweix.tripod.dao.mybatis.provider.AbstractProvider;
+import com.yuweix.kuafu.dao.PersistUtil;
+import com.yuweix.kuafu.dao.mybatis.BaseMapper;
+import com.yuweix.kuafu.dao.mybatis.provider.AbstractProvider;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.SelectProvider;
 

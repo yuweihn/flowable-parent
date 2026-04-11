@@ -8,7 +8,7 @@ import com.wei.common.constant.HttpStatus;
 import com.wei.common.core.domain.model.WechatLoginResult;
 import com.wei.common.utils.WechatUtil;
 import com.wei.system.service.ISysUserService;
-import com.yuweix.tripod.core.Response;
+import com.yuweix.kuafu.core.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;

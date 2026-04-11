@@ -3,7 +3,7 @@ package com.wei.flowable.service;
 
 import com.wei.common.core.domain.AjaxResult;
 import com.wei.flowable.domain.dto.FlowProcDefDto;
-import com.yuweix.tripod.core.Response;
+import com.yuweix.kuafu.core.Response;
 
 import java.io.IOException;
 import java.io.InputStream;

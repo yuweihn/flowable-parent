@@ -1,15 +1,15 @@
 package com.wei.common.core.redis;
 
 
-import java.util.Collection;
 import com.wei.common.constant.Constants;
-import com.yuweix.tripod.data.cache.Cache;
+import com.yuweix.kuafu.data.cache.Cache;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
+import java.util.Collection;
 
 
 /**
@@ -68,7 +68,7 @@ public class RedisCache {
      */
     public void deleteObject(final String key)
     {
-        cache.remove(key);
+        cache.delete(key);
     }
 
     /**

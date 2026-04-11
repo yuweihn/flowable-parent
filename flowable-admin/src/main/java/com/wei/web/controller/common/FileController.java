@@ -4,7 +4,7 @@ package com.wei.web.controller.common;
 import com.wei.common.constant.HttpStatus;
 import com.wei.system.domain.vo.FileVo;
 import com.wei.system.service.FileService;
-import com.yuweix.tripod.core.Response;
+import com.yuweix.kuafu.core.Response;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.stereotype.Controller;

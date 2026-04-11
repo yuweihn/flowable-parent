@@ -14,7 +14,6 @@
         <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <tripod.version>1.0.18</tripod.version>
         <aviator.version>5.3.1</aviator.version>
         <bitwalker.version>1.21</bitwalker.version>
         <commons.collections.version>3.2.2</commons.collections.version>
@@ -29,6 +28,7 @@
         <jna.version>5.7.0</jna.version>
         <jwt.version>0.9.1</jwt.version>
         <kaptcha.version>2.3.2</kaptcha.version>
+        <kuafu.version>1.0.5</kuafu.version>
         <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
         <maven.compiler.version>3.10.1</maven.compiler.version>
         <mybatis.spring.version>2.3.1</mybatis.spring.version>
@@ -307,8 +307,8 @@
 
             <dependency>
                 <groupId>com.yuweix.boot</groupId>
-                <artifactId>tripod-spring-boot-starter</artifactId>
-                <version>${tripod.version}</version>
+                <artifactId>kuafu-spring-boot-starter</artifactId>
+                <version>${kuafu.version}</version>
             </dependency>
             <dependency>
                 <groupId>javax.persistence</groupId>

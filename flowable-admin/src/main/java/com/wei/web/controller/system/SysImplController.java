@@ -8,7 +8,7 @@ import com.wei.system.domain.vo.*;
 import com.wei.system.mapper.*;
 import com.wei.system.service.*;
 import com.wei.system.service.impl.ContractServiceImpl;
-import com.yuweix.tripod.core.Response;
+import com.yuweix.kuafu.core.Response;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.apache.commons.lang.StringUtils;

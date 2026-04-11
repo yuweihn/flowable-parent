@@ -7,7 +7,7 @@ import java.util.Map;
 
 import com.wei.common.constant.HttpStatus;
 import com.wei.common.core.domain.TreeSelect;
-import com.yuweix.tripod.core.Response;
+import com.yuweix.kuafu.core.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.annotation.Validated;

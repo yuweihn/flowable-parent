@@ -6,7 +6,7 @@ import com.alibaba.fastjson2.filter.ValueFilter;
 import com.alibaba.fastjson2.support.config.FastJsonConfig;
 import com.alibaba.fastjson2.support.spring.http.converter.FastJsonHttpMessageConverter;
 import com.wei.framework.interceptor.LoginCheckInterceptor;
-import com.yuweix.tripod.data.datasecure.SensitiveUtil;
+import com.yuweix.kuafu.data.datasecure.SensitiveUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.MediaType;

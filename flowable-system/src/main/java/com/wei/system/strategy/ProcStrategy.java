@@ -3,9 +3,9 @@ package com.wei.system.strategy;
 
 import com.wei.system.domain.SysConfig;
 import com.wei.system.service.ISysConfigService;
-import com.yuweix.tripod.core.DateUtil;
-import com.yuweix.tripod.core.Response;
-import com.yuweix.tripod.core.SpringContext;
+import com.yuweix.kuafu.core.DateUtil;
+import com.yuweix.kuafu.core.Response;
+import com.yuweix.kuafu.core.SpringContext;
 
 import java.util.Date;
 import java.util.Map;

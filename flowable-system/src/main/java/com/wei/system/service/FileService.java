@@ -2,7 +2,7 @@ package com.wei.system.service;
 
 
 import com.wei.system.domain.vo.FileVo;
-import com.yuweix.tripod.core.Response;
+import com.yuweix.kuafu.core.Response;
 
 import javax.servlet.http.HttpServletResponse;
 

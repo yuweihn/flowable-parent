@@ -6,7 +6,7 @@ import java.util.UUID;
 
 import com.wei.system.domain.vo.FileVo;
 import com.wei.system.service.FileService;
-import com.yuweix.tripod.core.Response;
+import com.yuweix.kuafu.core.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;

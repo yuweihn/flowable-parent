@@ -31,7 +31,7 @@ import com.wei.system.service.OrderService;
 import com.wei.system.service.QiyeWeixinService;
 import com.wei.system.strategy.ProcContext;
 import com.wei.system.strategy.ProcStrategy;
-import com.yuweix.tripod.core.Response;
+import com.yuweix.kuafu.core.Response;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;

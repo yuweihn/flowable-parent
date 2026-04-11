@@ -10,7 +10,7 @@ import com.wei.flowable.service.IFlowDefinitionService;
 import com.wei.system.domain.vo.PageResponseVo;
 import com.wei.system.service.ISysRoleService;
 import com.wei.system.service.ISysUserService;
-import com.yuweix.tripod.core.Response;
+import com.yuweix.kuafu.core.Response;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;

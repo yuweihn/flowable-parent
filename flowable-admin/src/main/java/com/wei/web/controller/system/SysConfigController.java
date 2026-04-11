@@ -7,7 +7,7 @@ import java.util.List;
 import com.wei.common.constant.HttpStatus;
 import com.wei.common.enums.AgsCompany;
 import com.wei.system.domain.vo.DropDownVo;
-import com.yuweix.tripod.core.Response;
+import com.yuweix.kuafu.core.Response;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;

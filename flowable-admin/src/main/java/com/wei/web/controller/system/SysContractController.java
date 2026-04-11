@@ -11,7 +11,7 @@ import com.wei.system.domain.vo.*;
 import com.wei.system.mapper.ContractOrderMapper;
 import com.wei.system.mapper.OrderMapper;
 import com.wei.system.service.ContractService;
-import com.yuweix.tripod.core.Response;
+import com.yuweix.kuafu.core.Response;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

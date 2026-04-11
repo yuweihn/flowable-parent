@@ -7,7 +7,7 @@ import java.util.List;
 import com.wei.common.constant.Constants;
 import com.wei.common.core.domain.entity.SysDictData;
 import com.wei.common.utils.spring.SpringUtils;
-import com.yuweix.tripod.data.cache.Cache;
+import com.yuweix.kuafu.data.cache.Cache;
 import org.springframework.data.redis.core.RedisTemplate;
 
 

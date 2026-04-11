@@ -5,7 +5,7 @@ import com.wei.common.core.domain.AjaxResult;
 import com.wei.flowable.domain.dto.FlowTaskDto;
 import com.wei.flowable.domain.vo.FlowTaskVo;
 import com.wei.flowable.domain.vo.UserTaskVo;
-import com.yuweix.tripod.core.Response;
+import com.yuweix.kuafu.core.Response;
 import org.flowable.task.api.Task;
 
 import java.io.InputStream;

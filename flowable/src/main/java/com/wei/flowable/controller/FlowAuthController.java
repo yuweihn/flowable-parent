@@ -5,7 +5,7 @@ import com.wei.common.constant.HttpStatus;
 import com.wei.common.utils.SecurityUtils;
 import com.wei.system.domain.vo.*;
 import com.wei.system.service.FlowAuthService;
-import com.yuweix.tripod.core.Response;
+import com.yuweix.kuafu.core.Response;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

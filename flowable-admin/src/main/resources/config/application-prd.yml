@@ -96,7 +96,7 @@ app:
   # 站点域名
   domain: https://flow-api.agilenaas.com
 
-tripod:
+kuafu:
   sequence:
     setting:
       inner-step: 100

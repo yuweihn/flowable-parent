@@ -9,7 +9,7 @@ import com.wei.system.domain.vo.CustomerVo;
 import com.wei.system.domain.vo.PageResponseVo;
 import com.wei.system.mapper.OrderMapper;
 import com.wei.system.service.ISysCustomerService;
-import com.yuweix.tripod.core.Response;
+import com.yuweix.kuafu.core.Response;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
