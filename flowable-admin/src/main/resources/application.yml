@@ -118,7 +118,7 @@ flowable:
 
 kuafu.boot.lettuce.enabled: true
 #允许fastjson序列化与反序列化的对象
-kuafu.json.accept: com.wei.common.core.domain,com.wei.system.domain
+kuafu.json.fastjson.accept: com.wei.common.core.domain,com.wei.system.domain
 kuafu:
   sequence:
     beans:
