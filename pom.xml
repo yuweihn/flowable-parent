@@ -28,7 +28,7 @@
         <jna.version>5.7.0</jna.version>
         <jwt.version>0.9.1</jwt.version>
         <kaptcha.version>2.3.2</kaptcha.version>
-        <kuafu.version>1.0.5</kuafu.version>
+        <kuafu.version>1.0.6</kuafu.version>
         <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
         <maven.compiler.version>3.10.1</maven.compiler.version>
         <mybatis.spring.version>2.3.1</mybatis.spring.version>
