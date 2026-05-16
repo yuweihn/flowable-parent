@@ -3,8 +3,8 @@
 <!--status，默认是OFF，表示关闭log4j2本身的日志-->
 <configuration status="OFF">
 	<properties>
-		<property name="log.dir" value="${ctx:logDir:-/opt/logs/flow}"/>
-		<property name="project.name" value="${ctx:logFileName:-flow}" />
+		<property name="log.dir" value="${sys:logDir:-/opt/logs/flow}"/>
+		<property name="project.name" value="${sys:logFileName:-flow}" />
 		<!--<property name="log.pattern">%d{yyyy-MM-dd HH:mm:ss.SSS} [%p][traceId=%X{X-B3-TraceId},spanId=%X{X-B3-SpanId}][%t]-[%l]: %m%n</property>-->
 		<property name="log.pattern">%d{yyyy-MM-dd HH:mm:ss.SSS} [%p][traceId=%X{traceId},spanId=%X{spanId}][%t]-[%l]: %m%n</property>
 		<property name="every.file.size">10M</property><!--日志切割的最小单位-->
