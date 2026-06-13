@@ -5,8 +5,12 @@ import com.alibaba.fastjson2.filter.Filter;
 import com.alibaba.fastjson2.filter.ValueFilter;
 import com.alibaba.fastjson2.support.config.FastJsonConfig;
 import com.alibaba.fastjson2.support.spring.http.converter.FastJsonHttpMessageConverter;
+import com.wei.common.config.AppConf;
+import com.wei.common.constant.Constants;
 import com.wei.framework.interceptor.LoginCheckInterceptor;
-import com.yuweix.kuafu.data.datasecure.SensitiveUtil;
+import com.wei.framework.interceptor.RepeatSubmitInterceptor;
+import com.yuweix.kuafu.core.serialize.SensitiveUtil;
+import com.yuweix.kuafu.core.serialize.fastjson.FastjsonDateFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.MediaType;
@@ -14,9 +18,6 @@ import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-import com.wei.common.config.AppConf;
-import com.wei.common.constant.Constants;
-import com.wei.framework.interceptor.RepeatSubmitInterceptor;
 
 import javax.annotation.Resource;
 import java.util.ArrayList;
@@ -61,6 +62,7 @@ public class SpringMvcConf implements WebMvcConfigurer {
                 ? new ArrayList<>()
                 : new ArrayList<>(Arrays.asList(filters));
         filterList.add((ValueFilter) SensitiveUtil::shield);
+        filterList.add(new FastjsonDateFilter());
         fastJsonConf.setWriterFilters(filterList.toArray(new Filter[0]));
         converters.add(0, fastConverter);
     }
